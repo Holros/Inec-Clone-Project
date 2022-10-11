@@ -1,0 +1,125 @@
+/*WORKS FOR 125%*/
+@media screen and (max-width: 1227px) {
+  /*first nav bar*/
+  .topbar {
+    justify-content: space-between;
+  }
+  /*telephone and address-first nav bar*/
+  .info {
+    margin-right: 0;
+    margin-left: 1rem;
+  }
+  /*socials*/
+  .socials {
+    margin-right: 1rem;
+  }
+  /*LOGO AND MAIN BAR*/
+  /*.logo-main-bar{display: flex;flex-direction:column;flex-wrap: wrap;}*/
+  /*logo*/
+  .logo {
+    text-align: center;
+  }
+}
+
+/*WORKS FOR 150%*/
+@media screen and (max-width: 1027px) {
+  /*first nav bar*/
+  .maxwidth {
+    flex-direction: column;
+    text-align: center;
+  }
+  /*telephone and address-first nav bar*/
+  .info {
+    margin-right: 0;
+    margin-left: 1rem;
+  }
+  /*socials*/
+  .socials {
+    margin-right: 1rem;
+    align-items: center;
+    padding: 1rem 0;
+  }
+  /*LOGO AND MAIN BAR*/
+  .logo-main-bar {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+  /*logo*/
+  .logo {
+    text-align: left;
+    padding: 1rem;
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  /*bar umbrella*/
+  .bar-umbrella {
+    flex-basis: 50%;
+    max-width: 50%;
+    justify-content: flex-start;
+  }
+  /*main bar*/
+  .mainbar {
+    display: none;
+  }
+  /*alt Bar*/
+  .altbar {
+    background-color: #222;
+    display: block;
+    color: #ddd;
+    font-size: 14px;
+    text-align: right;
+    padding: 0.6rem;
+    width: 82%;
+    border-radius: 3px; /*margin-left: 0.5rem;*/
+  }
+  /*search*/
+  .search {
+    padding: 1rem; /*margin-right: 1.8rem;*/
+  }
+  /*MAIN CONTENT*/
+  .main_content {
+    flex-direction: column;
+  }
+  /*FOOTER*/
+  .footer {
+    flex-direction: column;
+  }
+  /*logo about socials*/
+  .social {
+    margin-bottom: 1rem;
+  }
+  /*servicom*/
+  .servicom {
+    justify-content: flex-start;
+  }
+}
+
+/* on Tablet devices */
+@media screen and (max-width: 850px) {
+  .info {
+    flex-direction: column;
+    text-align: center;
+  }
+  p.spec {
+    margin: 1rem 0;
+  }
+  .quicklinks_faq {
+    flex-direction: column;
+  }
+  /*search*/
+  .search {
+    padding-left: 0;
+  }
+  .servicom {
+    margin-top: 1rem;
+  }
+}
+
+/*@media only screen and (max-width: )   {
+
+
+
+  
+}
+    */

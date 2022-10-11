@@ -1,0 +1,354 @@
+/*Generic*/
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body{
+    line-height: 1.5;
+    
+}
+a{
+    text-decoration: none; 
+}
+.logo-main-bar,.maxwidth{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+/*FIRST NAV BAR*/
+.topbar{
+    background-color: rgba(32, 160, 32, 0.75);
+    font-family: 'Open Sans';
+   }
+.maxwidth{ 
+    display: flex; 
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/*telephone and address-first nav bar*/
+.info{
+    font-size: 0.93rem;
+    color: rgb(255, 255, 255);
+    padding: 0.58rem;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+.info i{
+    font-size: 0.7rem;
+}
+.info a{
+    color: rgb(255, 255, 255);
+    padding-right:0.15rem;
+}
+.info p{
+    display: inline;
+}
+/*space between telephone and address*/
+p.spec{
+    margin-left: 1.8rem;
+}
+p.spec:hover{
+    color: rgb(0, 0, 0,0.7);
+}
+/*socials*/
+.socials{
+    display: flex;
+    justify-content:center;
+    margin-right: 7.5rem;
+}
+.socials i{
+    color:white;
+    font-size: 0.8rem;
+}
+.socials a{
+    border-right: 1px solid rgb(255, 255, 255,0.5);
+    padding:0.5rem 0.65rem;
+    display: flex;
+    align-items: center;
+}
+a.facebook{
+    background-color: rgb(45, 105, 182);
+}
+a.twitter{
+    background-color: rgb(121, 184, 206);
+}
+a.instagram{
+    background-color: rgb(196, 82, 101);
+}
+a.youtube{
+    background-color: rgb(204, 42, 42);
+}
+/*LOGO AND MAIN BAR*/
+.logo-main-bar{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
+/*logo*/
+.logo{
+    padding: 1rem 0;
+}
+/*bar umbrella*/
+.bar-umbrella{
+    display: flex;
+    align-items: center;
+}
+/*main bar*/
+.mainbar{
+    display:flex;
+    flex-wrap: wrap;
+    
+    background-color: white;
+    
+    
+}
+/*.mainbar*/ .dropdown i{
+    margin:0 4px;
+}
+/*.mainbar*/ .dropdown a{
+    color: black;
+    display: block;
+    padding:2rem 0.94rem;
+    font-size: 0.81rem;
+    font-weight: 590;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*.mainbar*/ .dropdown > a:hover{
+    color: white;
+    background-color: rgba(32, 160, 32, 0.75);
+} 
+/* DROPDOWN*/
+.dropdown{
+    position:relative;
+}
+.dropdown-content{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    display: none;
+    flex-wrap: wrap;
+}
+.dropdown-content a{
+    background-color: #5cb85c;
+    color: white;
+    padding:10px 2rem 10px 10px;
+}
+.dropdown-content a:not(:last-child){
+    border-bottom: 1px solid white;
+}
+.dropdown:hover .dropdown-content{
+    display: flex;
+}
+.dropdown:hover a{
+    background-color: #5cb85c;
+    color: white;
+}
+.dropdown-content a:hover{
+    background-color:#55d655;
+}
+/*alt Bar*/
+.altbar{
+    display:none;
+}
+/*search*/
+.search{
+    margin-left: 1rem;
+    
+}
+.search a{
+    color:#39733f;
+}
+.search a:hover{ 
+    color:#ddd;
+}
+/*BACKGROUND BANNER*/
+.banner{
+    text-align: center;
+    color: white;
+    padding: 2rem;
+    font-size: 1.33rem;
+    font-family: sans-serif;
+    background-image: url("../images/Nflag.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    max-width:1200px ;
+    margin: 0 auto;
+}
+/*MAIN CONTENT*/
+.main_content{
+    
+    max-width: 1200px;
+    margin: 3rem auto;
+    display: flex;
+    
+}
+/*content*/
+.content{
+   color:#404040;
+   font-family: sans-serif;
+   flex-basis: 75%;
+   padding: 0 15px 15px;
+   max-width:100%;
+}
+.content h3,.content h4,.content p{
+    margin-bottom:2rem;
+}
+
+.content>div{
+    margin-bottom: 2rem;
+}
+
+p.note{
+    margin-bottom: 2rem; 
+}
+
+/*box*/
+.box-area{
+    flex-basis: 25%;
+    max-width:100%;
+    padding: 0 17px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    color:#fff;
+    background-color: #5cb85c;
+    border-radius: 15px;
+    padding: 15px 15px 40px;
+    
+    box-shadow:0px 0px 17px rgb(0 0 0 / 40%);
+}
+.box h2{
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+.box i{
+    margin-right:8px;
+}
+.box a{
+    color:#fff;
+    margin:0.3rem 0;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+/*FOOTER*/
+.blur{
+    background-image: url("../images/inecs_footer_background_img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.assist{    
+    background-color: rgba(92,184,92,0.8);    
+}
+.footer{
+    padding:40px 0;
+    display: flex;
+    max-width: 1200px;
+    margin:0 auto;
+    color: #fff;
+    flex-wrap: wrap;
+
+}
+/*logo about socials*/
+.logo_about_social{
+    flex-basis: 33.3333%;
+    max-width: 100%;
+    padding: 0 30px 0 15px ;
+    margin: 0;
+    
+}
+.logo_about_social p{
+    text-align: justify; 
+    margin: 15px 0 30px;
+    font-family: sans-serif;
+    
+}
+.social{
+    display: flex;
+    justify-content:flex-start;
+    
+}
+.social i{
+    color:white;
+    font-size: 1rem;
+}
+.social a{
+    padding:0.5rem 0.65rem;
+    margin-right:10px;
+}
+
+
+/*quicklinks and faq*/
+.quicklinks_faq{
+    flex-basis: 50%;
+    max-width: 100%;
+    display: flex;
+}
+.quicklinks{
+    flex-basis: 50%;
+    max-width:100%;
+    display: flex;
+    flex-direction: column;
+    padding:0 15px 15px 55px;
+}
+.quicklinks_faq h4{
+    font-size: 22px;
+    margin-bottom: 30px;
+    font-family: Arvo;
+}
+.quicklinks a{
+    color: #fff;
+    margin:10px 0 10px 10px;
+    padding:0 25px 0 0;
+}
+.faq{
+    flex-basis: 50%;
+    padding:0 15px;
+}
+/*Link In FAQ*/
+.faq_link{
+    display: flex;
+    margin:10px 0;
+}
+.faq_link a{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: sans-serif;
+    display: block;
+    padding:0 10px 0 0;
+}
+.faq_link a:hover{
+    color: rgba(105, 103, 103, 0.6);
+}
+.faq_link span{
+    font-size: 80%;
+    font-family: sans-serif;
+    border:1px solid #fff;
+    padding:2px;
+}
+/*servicom*/
+.servicom{
+    flex-basis: 16.666667%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+}
+/*COPYRIGHT*/
+.copyright{
+    text-align: center;
+    background-color: #000;
+    color: #ddd;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.05rem;
+    padding: 2rem;
+}
