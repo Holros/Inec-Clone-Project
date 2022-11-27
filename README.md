@@ -1,2 +1,4 @@
 # Inec-Clone-Project
 This is a project i built to test my HTML and CSS skills. I cloned a page from Inec's official site https://www.inecnigeria.org/voter-education/guide-for-transfer-of-registered-voters/
+
+i'm adding this line to understand better how to git pull function works
