@@ -65,13 +65,17 @@
   /*alt Bar*/
   .altbar {
     background-color: #222;
-    display: block;
+    display: flex;
+    justify-content: right;
     color: #ddd;
     font-size: 14px;
     text-align: right;
     padding: 0.6rem;
     width: 82%;
     border-radius: 3px; /*margin-left: 0.5rem;*/
+  }
+  .altbar i{
+    margin: 0 5px;
   }
   /*search*/
   .search {
