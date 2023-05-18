@@ -151,34 +151,33 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 .dropdown-content a:hover{
     background-color:#55d655;
 }
-.dropdown-two, .dropdown-altbar{
+.dropdown-two, .dropdown-altbar,.dropdown-twoo{
     position: relative;
 }
 .dropdown-content-altbar{
     position:absolute;
     top: 40px;
-    left: -2px;
+    right: -2px;
     display: none;
     flex-direction: column;
     flex-wrap: wrap;
     z-index: 1;
-    width: 100%;
+    width: 140%;
 }
-.dropdown-two > a{
+.dropdown-two > a, .dropdown-twoo > a{
     display: block;
     color: white;
     background-color:#222;
     padding: 10px 15px;
 }
-.dropdown-two:hover > a{
+.dropdown-two:hover > a, .dropdown-two:hover > a{
     background-color: rgb(54, 53, 53);
 }
-.dropdown-two:hover i, .dropdown:hover i{
-    rotate: 180deg;
-    transition: 0.5s;
+.dropdown i, .dropdown-two i{
+    transition: rotate 0.5s;
 }
-.dropdown-two:hover .dropdown-content-altbar-two{
-    display: flex;
+.dropdown:hover i{
+    rotate: 180deg;
 }
 .bind{
     display: flex;
